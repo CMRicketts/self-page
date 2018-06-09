@@ -6,6 +6,9 @@ import {ContactpageComponent} from './contactpage/contactpage.component';
 import {InfopageComponent} from './infopage/infopage.component';
 import {ResumepageComponent} from './resumepage/resumepage.component';
 import {ProjectpageComponent} from './projectpage/projectpage.component';
+import {MailComponent} from './mail/mail.component';
+import {LinkedinComponent} from './linkedin/linkedin.component';
+import {EmailComponent} from './email/email.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -13,7 +16,10 @@ const routes: Routes = [
   { path: 'about', component: InfopageComponent},
   { path: 'contact', component: ContactpageComponent},
   { path: 'resume', component: ResumepageComponent},
-  { path: 'projects', component: ProjectpageComponent}
+  { path: 'projects', component: ProjectpageComponent},
+  { path: 'mail', component: MailComponent},
+  { path: 'online', component: LinkedinComponent},
+  { path: 'email', component: EmailComponent}
 ];
 
 @NgModule({

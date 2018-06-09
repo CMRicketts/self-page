@@ -1,0 +1,72 @@
+<div class="container has-text-centered">
+  <div class="title is-size-1">
+    <h1>
+      Talk to Me
+    </h1>
+  </div>
+  <div class="subtitle">
+    <nav class="breadcrumb is-centered" aria-label="breadcrumbs">
+      <ul>
+        <li><a routerLink="/email"><strong>Email Me</strong></a></li>
+        <li><a routerLink="/online">Find Me Online</a></li>
+        <li><a routerLink="/mail">Mail Me</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<br/>
+<br/>
+<body>
+<div class="container is-fluid">
+  <div class="Subtitle has-text-centered is-size-4">
+    <h1>
+      Feel free to reach out to me at any time. I'd love to talk with you!
+    </h1>
+    <br/>
+    <div class="level">
+
+        <div class="level-item">
+          <div class="subtitle is-size-5">
+            <strong>You can email me yourself at: <a href="mailto:ricketc17@gmail.com"><i>ricketc17@gmail.com</i></a></strong>
+          </div>
+
+      </div>
+    </div>
+    <br/>
+    <div class="level" id="email_form">
+
+        <div class="level-item">
+          <div class="subtitle is-size-6">
+            Or, you can use this (conveniently placed) form!
+          </div>
+        </div>
+      </div>
+
+    <div class="level">
+        <div class="level-item">
+          <form action="/my-handling-form-page" method="post">
+
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name" />
+              <div>
+                <div>
+                  <label for="mail">E-mail:</label>
+                  <input type="email" id="mail" name="user_email" />
+                </div>
+                <div>
+                  <label for="msg">Message:</label>
+                  <textarea id="msg" name="user_message"></textarea>
+                </div>
+                <div class="button">
+                      <button type="submit">Send your message</button>
+                    </div>
+              </div>
+
+          </form>
+        </div>
+
+    </div>
+  </div>
+</div>
+</body>

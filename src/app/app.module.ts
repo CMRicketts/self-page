@@ -11,6 +11,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { ProjectpageComponent } from './projectpage/projectpage.component';
 import { ProjectinfoComponent } from './projectinfo/projectinfo.component';
 import { MeinfoComponent } from './meinfo/meinfo.component';
+import { LinkedinComponent } from './linkedin/linkedin.component';
+import { MailComponent } from './mail/mail.component';
+import { EmailComponent } from './email/email.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { MeinfoComponent } from './meinfo/meinfo.component';
     InfopageComponent,
     ProjectpageComponent,
     ProjectinfoComponent,
-    MeinfoComponent
+    MeinfoComponent,
+    LinkedinComponent,
+    MailComponent,
+    EmailComponent
   ],
   imports: [
     BrowserModule,
