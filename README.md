@@ -25,3 +25,15 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+<!-- 
+ng build --prod --output-path docs --base-href self-page
+copy docs/index.html, paste and rname to docs/404.html
+git add . 
+git commit -m ""
+git push
+go to settings, change routing to www.calebricketts.net
+cmd: git fetch
+git pull
+make sure changes are pushed to site
+-->
