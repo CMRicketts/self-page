@@ -1,10 +1,58 @@
-<nav class="navbar is-info is-flex" role = "navigation" aria-label="main navigation">
+<!--<nav class="navbar is-info is-flex" role = "navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" routerLink="/home">
       <img src="../../assets/crwhitea.png">
     </a>
   </div>
-  <div class="navbar-menu is-flex">
+
+  <div class="navbar-menu is-flex-touch">
+    <div class="navbar-start is-flex-touch">
+        <a class="navbar-item" routerLink="/about">
+          About Me
+        </a>
+        <a class="navbar-item" routerLink="/projects">
+          My Projects
+        </a>
+        <a class="navbar-item" routerLink="/resume">
+          My Resume
+        </a>
+        <a class="navbar-item" routerLink="/contact">
+          Contact Me
+        </a>
+    </div>
+
+    <div class="navbar-end is-hidden-touch">
+
+      <a class="navbar-item" href="https://github.com/CMRicketts" target="_blank">
+        <img src="../../assets/github.svg">
+      </a>
+      <a class="navbar-item" href="https://www.facebook.com/caleb.ricketts.1" target="_blank">
+        <img src="../../assets/facebook.png">
+      </a>
+      <a class="navbar-item" href="https://www.linkedin.com/in/caleb-ricketts-6457b6126/" target="_blank">
+        <img src="../../assets/linkedinwhite.png">
+      </a>
+      <a class="navbar-item" routerLink="/email">
+        <img src="../../assets/mail.svg">
+      </a>
+    </div>
+  </div>
+</nav>-->
+
+<nav class="navbar is-info" role = "navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" routerLink="/home">
+      <img src="../../assets/crwhitea.png">
+    </a>
+
+    <div class="navbar-burger burger" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div  class="navbar-menu">
     <div class="navbar-start is-flex-touch">
       <a class="navbar-item" routerLink="/about">
         About Me
@@ -19,7 +67,9 @@
         Contact Me
       </a>
     </div>
+
     <div class="navbar-end is-hidden-touch">
+
       <a class="navbar-item" href="https://github.com/CMRicketts" target="_blank">
         <img src="../../assets/github.svg">
       </a>
@@ -32,7 +82,6 @@
       <a class="navbar-item" routerLink="/email">
         <img src="../../assets/mail.svg">
       </a>
-      <a class="navbar-burger"></a>
     </div>
   </div>
 </nav>
