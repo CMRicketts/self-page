@@ -33,8 +33,7 @@ git add .
 git commit -m ""
 git push
 go to settings, change routing to www.calebricketts.net
-cmd: git fetch
-git pull
+cmd: git pull
 make sure changes are pushed to site
 
 for any other changes (like readme): 
