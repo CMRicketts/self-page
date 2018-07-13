@@ -39,5 +39,7 @@ make sure changes are pushed to site
 for any other changes (like readme): 
 git add ., git commit -m "", git push
 
+test addition, please ignore
+
 https://github.com/angular/angular-cli/wiki/stories-github-pages
 -->
