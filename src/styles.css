@@ -18,3 +18,7 @@ h1, title, subtitle {
 page {
   user-experience: no-bugs;
 }
+
+href{
+  color: -webkit-link;
+}
