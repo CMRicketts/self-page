@@ -15,7 +15,6 @@ import { MeinfoComponent } from './meinfo/meinfo.component';
 import { LinkedinComponent } from './linkedin/linkedin.component';
 import { MailComponent } from './mail/mail.component';
 import { EmailComponent } from './email/email.component';
-import { PingerComponent } from './pinger/pinger.component';
 import { UpdateMeComponent } from './update-me/update-me.component';
 
 @NgModule({
@@ -32,7 +31,6 @@ import { UpdateMeComponent } from './update-me/update-me.component';
     LinkedinComponent,
     MailComponent,
     EmailComponent,
-    PingerComponent,
     UpdateMeComponent
   ],
   imports: [
