@@ -31,6 +31,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 GO THROUGH TERMINAL ON DESKTOP
 
 ng build --prod --output-path docs --base-href self-page
+or
+npm run build_production
+
 copy docs/index.html, paste and rename to docs/404.html
 git add . 
 git commit -m ""
